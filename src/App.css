@@ -1,0 +1,50 @@
+body {
+  background: rgb(255, 173, 65);
+}
+
+/* ................App.js ............. */
+
+.link{
+  font-size: 2rem;
+}
+
+/* .............. Todos/Index page .............. */
+.nav {
+  text-align: center;
+  font-size: 5rem;
+}
+
+
+.App{
+  /* background-color: #badec9 ; */
+}
+
+/* 
+.ul{
+  background-color:  ;
+} */
+
+.ul {
+  background-color: #badec9 ;
+  list-style-type: none; 
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+
+/* ................ Show Page ................ */
+
+.show{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+
+/* ................ Create Page ................ */
+
+.crt{
+  font-size: 2rem;
+  position: relative;
+  top: -539px;
+  left: 1370px;
+}
