@@ -23,15 +23,16 @@ import Create from './Create.js'
          {todos.map((todo) => {
             return(
                
-                    <li>
-                      <h3><a href={`/${todo._id}`}>{todo.description}</a></h3>                   
+                    <li> 
+                     <strike><h3 className="completed"><a href={`/${todo._id}`}>{todo.description} </a></h3></strike>
+                      <h3 className='notCompleted'><a href={`/${todo._id}`} id="color" >{todo.description} </a></h3>                   
                     </li>
                
                 );
             })}
         </ul>
             
-            <h3 className="crt"><a href="/create">Create A To Do</a></h3>
+            <h3 className="crt"><a href="/create">Add A ToDo</a></h3>
       </div>
     );
   }

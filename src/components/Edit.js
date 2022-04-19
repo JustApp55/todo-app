@@ -24,10 +24,10 @@ export default function Edit() {
         <div className="new">
              <h1 className="edit"> Edit ToDo</h1>
           <form onSubmit={updateTheTodo}>
-             <input type='text' name='description' defaultValue={data.description}/> <br/>
-              Complete: <input type='checkbox' name='complete' defaultChecked={data.complete} />
+             <input type='text' name='description' defaultValue={data.description} id="edd"/> <br/>
+              Complete: <input type='checkbox' name='complete' defaultChecked={data.complete} className="box2"/>
               <br/><br/>
-            <input type='submit' />
+            <input type='submit' className="edsub" />
           </form>
         </div>
     )

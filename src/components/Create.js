@@ -18,9 +18,10 @@ export default function Create() {
             <form onSubmit={newTodo}>
                 <input type='text' name='description' id='dsc'>
                 </input>
-                <input type='submit'></input>
+                <input type='submit' className="crsub"></input>
             </form>
         </div>
     )
 }
+
 

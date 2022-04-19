@@ -22,7 +22,7 @@ export default function Show() {
       <div className="show">
             <h2> ToDo </h2>
             <h3> {todo.description} </h3> <br/>
-            Completed: <input type='checkbox' checked={todo.complete} /> <br/>
+            Completed: <input type='checkbox' checked={todo.complete} id="box" /> <br/>
             <button onClick={() => {nav(`/${id}/edit`)}}  className="editBt">Edit Todo</button>
             <button onClick={deleteTheToDo} className="del"> Delete </button>
       </div>
