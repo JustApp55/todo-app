@@ -22,9 +22,12 @@ import Create from './Create.js'
         <ul className="ul">
          {todos.map((todo) => {
             return(
-               
+                  todo.complete ?
                     <li> 
-                     <strike><h3 className="completed"><a href={`/${todo._id}`}>{todo.description} </a></h3></strike>
+                      <strike><h3 className="completed"><a href={`/${todo._id}`}>{todo.description} </a></h3></strike>
+                    </li> 
+                      :
+                    <li> 
                       <h3 className='notCompleted'><a href={`/${todo._id}`} id="color" >{todo.description} </a></h3>                   
                     </li>
                

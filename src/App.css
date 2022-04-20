@@ -1,5 +1,5 @@
 body {
-  background: rgb(255, 173, 65);
+  background: rgb(254, 169, 58);
 }
 
 /* ................App.js ............. */
@@ -19,10 +19,9 @@ body {
 
 .ul {
   background-color: #badec9 ;
-  list-style-type: "🛒";
+  list-style-type: ">";
   /* text-align: center; */
   font-size: 2.5rem;
-  textDecoration: 'none';
 }
 
 .completed{
@@ -36,8 +35,8 @@ body {
 
 .crt{
   font-size: 2rem;
-  position: relative;
-  top: -580px;
+  position: absolute;
+  top: 60px;
   left: 20px;
   
 }
