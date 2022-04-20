@@ -18,7 +18,7 @@ body {
 }
 
 .ul {
-  background-color: #badec9 ;
+  background-color: #38f4d5 ;
   list-style-type: ">";
   /* text-align: center; */
   font-size: 2.5rem;
@@ -29,7 +29,7 @@ body {
 }
 
 .notCompleted{
-  background-color: aqua;
+  background-color: #ffc8dd;
 }
 
 
@@ -55,14 +55,14 @@ body {
 
 .editBt {
   height:40px; 
-  width:100px;
-  font-size: 1.1rem;
+  width:150px;
+  font-size: 1.5rem;
 }
 
 .del{
   height:40px; 
-  width:100px;
-  font-size: 1.1rem;
+  width:150px;
+  font-size: 1.5rem;
 }
 
 /* ................ Create Page ................ */
@@ -90,8 +90,8 @@ body {
 
 .crsub{
   height:40px; 
-  width:100px;
-  block-size: 40px;
+  width:150px;
+  font-size: 1.5rem;
 
   position: relative;
   top: 2px;
@@ -122,5 +122,6 @@ body {
 
 .edsub{
   height:40px; 
-  width:100px;
+  width:150px;
+  font-size: 1.5rem;
 }
